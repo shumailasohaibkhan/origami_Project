@@ -1,0 +1,244 @@
+/* Google Font CDN Link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins" , sans-serif;
+}
+body{
+  min-height: 100vh;
+  width: 100%;
+  background: #fff;
+  flex-direction: column;
+
+}
+.parent_container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  width: 85%;
+  background: #fff;
+  border-radius: 6px;
+  padding: 20px 60px 30px 40px;
+  box-shadow: 3px 3px 15px 1px rgb(104, 104, 104);
+}
+.container .content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container .content .left-side{
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  position: relative;
+}
+.content .left-side::before{
+  content: '';
+  position: absolute;
+  height: 70%;
+  width: 2px;
+  right: -15px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #afafb6;
+}
+.content .left-side .details{
+  margin: 14px;
+  text-align: center;
+}
+.content .left-side .details i{
+  font-size: 30px;
+  color: rgb(196,108,108);
+  margin-bottom: 10px;
+}
+.content .left-side .details .topic{
+  font-size: 18px;
+  font-weight: 500;
+}
+.content .left-side .details .text-one,
+.content .left-side .details .text-two{
+  font-size: 14px;
+  color: #afafb6;
+}
+.container .content .right-side{
+  width: 75%;
+  margin-left: 75px;
+}
+.content .right-side .topic-text{
+  font-size: 23px;
+  font-weight: 600;
+  color: rgb(196,108,108);
+}
+.right-side .input-box{
+  height: 50px;
+  width: 100%;
+  margin: 12px 0;
+}
+.right-side .input-box input,
+.right-side .input-box textarea{
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background: #F0F1F8;
+  border-radius: 6px;
+  padding: 0 15px;
+  resize: none;
+}
+.right-side .message-box{
+  min-height: 110px;
+}
+.right-side .input-box textarea{
+  padding-top: 6px;
+}
+.right-side .button{
+  display: inline-block;
+  margin-top: 12px;
+}
+.right-side .button input[type="submit"]{
+  color: #fff;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  background: rgb(196,108,108);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.button input[type="submit"]:hover{
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+@media (max-width: 950px) {
+  .container{
+    width: 90%;
+    padding: 30px 40px 40px 35px ;
+  }
+  .container .content .right-side{
+   width: 75%;
+   margin-left: 55px;
+}
+}
+@media (max-width: 820px) {
+  .container{
+    margin: 40px 0;
+    height: 100%;
+  }
+  .container .content{
+    flex-direction: column-reverse;
+  }
+ .container .content .left-side{
+   width: 100%;
+   flex-direction: row;
+   margin-top: 40px;
+   justify-content: center;
+   flex-wrap: wrap;
+ }
+ .container .content .left-side::before{
+   display: none;
+ }
+ .container .content .right-side{
+   width: 100%;
+   margin-left: 0;
+ }
+}
+
+
+
+/* footer  */
+
+.footer_main_dib{
+  background: whitesmoke;
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5%;
+  justify-content: space-evenly;
+  
+  }
+  /* footer{
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: max-content;
+  } */
+  .center{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  .footer_link{
+      text-decoration: none;
+      color: black;
+  }
+  
+  .footer_headings{
+      font-weight: 600;
+  }
+  
+  .footer_div{
+      padding-top: 20px;
+  
+  }
+  .footer_input{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: end;
+  
+  }
+  .inp{
+      border: 1px solid black;
+      padding: 10px;
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
+      border-right: none;
+  }
+  
+  .syb_btn{
+      border: 1px solid rgb(196,108,108);
+      padding: 10px;
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+      border-left: none;
+      color: white;
+      background-color:rgb(196,108,108);
+  }
+  
+  .social_links{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      gap: 10%;
+  }/* navbar   */
+
+.nav_logo{
+  width: 50px;
+  height: 45px;
+}
+
+
+.navbar{
+  top: 0;
+  width: 100%;
+}
+
+
+
+

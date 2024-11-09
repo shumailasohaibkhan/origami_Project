@@ -1,0 +1,452 @@
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+.nav-link{
+    font-size: large;
+    font-weight: 500;
+}
+:hover.nav-link{
+    transform: scale(1.05);
+    transition: ease;
+    transition: 0.2s;
+    background-color: rgb(196,108,108);
+    color: white;
+}
+:hover#active{
+    color: white;
+    background-color: rgb(196, 108, 108);
+}
+:hover.link_2{
+    transform: scale(1.05);
+    transition: ease;
+    text-decoration: none;
+    color: black;
+}
+.link_2{
+    text-decoration: none;
+    color: black;
+}
+body{
+padding: 0;
+margin: 0;
+}
+#list{
+   gap: 50px;
+
+}
+
+
+#mp5 {
+    font-weight: 400;
+    margin-top: 25px;
+    line-height: normal;
+}
+
+#content {
+    /* border: 3px solid rgb(182, 182, 182); */
+    border-radius: 25px;
+    margin-top: 100px;
+    padding-right: 25px;
+}
+
+/* #h2 {
+    text-decoration: underline black;
+
+} */
+
+.button {
+    border: 1px solid;
+}
+
+:hover.button {
+    background-color: rgb(196, 108, 108);
+    color: white;
+    border: 0px;
+    transition: 0.5s;
+}
+.dropdown-menu{
+
+background-color: white;
+
+border-color: black;
+}
+
+
+
+/* flex kar raha hu */
+
+.klj{
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+
+justify-content: center;
+align-items: center;
+}
+.klja{
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.btn_flex{
+    width: 100%;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+}
+.as{
+    flex-wrap: wrap-reverse !important;
+}
+.dsa{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+/* 
+.btn-lg{
+    margin-left: 28vw;
+} */
+
+/* #img1{
+  margin-left: 10vw;
+} */
+
+.a-item{
+    align-items: center;
+    text-align: center;
+}
+
+.dgz{
+    padding-left: 0 !important;
+}
+
+
+/* sub pages css */
+
+.text{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subpage_text{
+    
+display: flex;
+font-size: larger;
+font-weight: bold;
+text-align: center;
+width: 50%;
+
+}
+.subpage_text2{
+    
+display: flex;
+font-size: larger;
+font-weight: bold;
+text-align: center;
+
+
+
+
+}
+
+.kljaa{
+    width: 100%;
+display: flex;
+flex-wrap: wrap;
+flex-direction: row !important;
+justify-content: center;
+align-items: center;
+gap: 20px;
+}
+
+.step_divs{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  
+    justify-content: center;
+    align-items: center;
+}
+
+.subpage_text2{
+    width: 50%;
+}
+.step_img_div{
+    width: 50%;
+}
+.step_divs_parent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.subpage_text1{
+    font-weight: 500;
+    line-height: normal;
+    font-size: larger;
+}
+
+
+
+
+
+.content_1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.image_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.container_1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ABOUT US CSS */
+
+.abt_first_div{
+    background-color: whitesmoke;
+
+display: flex;
+  
+ gap: 10%;
+    padding:5% ;
+    border-radius: 10px 10px 10px 10px;
+    flex-wrap: wrap;
+
+    box-shadow: 3px 3px 15px 1px rgb(104, 104, 104);
+  
+}
+.sbu_section{
+ width: 45%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.sbu_section_2{
+    padding: 2%;
+    background-color: red;
+    border-radius: 10px 10px 10px 10px;
+    color: white;
+    width: 45%;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+
+
+/* NAV AND FOOTER CSS */
+
+/* navbar   */
+
+.nav_logo{
+    width: 50px;
+    height: 45px;
+}
+
+
+.navbar{
+    top: 0;
+    width: 100%;
+}
+:hover.dropdown-item{
+    background-color: rgb(196, 108, 108);
+    color: white;
+}
+
+
+
+
+
+/* footer  */
+
+.footer_main_dib{
+background: whitesmoke;
+width: 100%;
+padding-left: 10%;
+padding-right: 10%;
+padding-top: 30px;
+padding-bottom: 30px;
+display: flex;
+flex-wrap: wrap;
+gap: 5%;
+justify-content: space-evenly;
+
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer_link{
+    text-decoration: none;
+    color: black;
+}
+:hover.footer_link{
+    color: rgb(196, 108, 108);
+}
+
+.footer_headings{
+    font-weight: 600;
+}
+
+.footer_div{
+    padding-top: 20px;
+
+}
+.footer_input{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: end;
+
+}
+.inp{
+    border: 1px solid black;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-right: none;
+}
+
+.syb_btn{
+    border: 1px solid rgb(196, 108, 108);
+    padding: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left: none;
+    color: white;
+    background-color:rgb(196, 108, 108);
+}
+
+.social_links{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 700px){
+   .abt_first_div{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 700px) {
+    .footerNav ul {
+        /* flex-direction: column; */
+    margin: 10px;
+    }
+
+    .footerNav ul li {
+        width: 100px;
+        text-align: center;
+        margin: 5px;
+    }
+
+    .footercontainer ul {
+        /* flex-direction: column; */
+    margin: 10px;
+    }
+    #img1{
+        width: 350px;
+    }
+    .img2{
+        width: 350px;
+    }
+    #img4{
+        width: 150px;
+    }
+    #list{
+        gap: 20px;
+    }
+    .btn_flex{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .step_divs_parent{
+       flex-direction: column;
+    }
+    
+}
+
+
+

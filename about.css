@@ -1,0 +1,35 @@
+.abt_first_div{
+    background-color: whitesmoke;
+
+display: flex;
+  
+ gap: 10%;
+    padding:5% ;
+    border-radius: 10px 10px 10px 10px;
+    flex-wrap: wrap;
+  
+}
+.sbu_section{
+ width: 45%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.sbu_section_2{
+    padding: 2%;
+    background-color: red;
+    border-radius: 10px 10px 10px 10px;
+    color: white;
+    width: 45%;
+    font-weight: 600;
+    text-align: center;
+
+}
+@media (max-width: 700px){
+   .abt_first_div{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+}
